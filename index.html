@@ -5,40 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" rel="stylesheet" href="style.css" />
     <title>Document</title>
-    <link rel="shortcut icon" type="x-icon" href="Logos.svg" />
+    <link
+      rel="icon"
+      href="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg"
+    />
   </head>
   <body>
     <div class="container">
       <div class="cabecalho">
-        <div class="logo"></div>
+        <div class="logo">Logo svg</div>
         <div class="menu">
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Contato</a></li>
           </ul>
-          <div class="imagem-container">
-            <img src="search.svg" alt="Imagem" class="imagem" />
-            <div class="barra-pesquisa" id="barra-pesquisa">
-              <input
-                type="search"
-                name="pesquisa"
-                id="pesquisa"
-                placeholder="Pesquisar"
-              />
-            </div>
+        </div>
+        <div class="pesquisa">
+          <img src="logo-MIPRON.jpeg" alt="Imagem" class="imagem" />
+          <div class="barra-pesquisa" id="barra-pesquisa">
+            <input
+              class="caixa"
+              type="search"
+              name="pesquisa"
+              id="pesquisa"
+              placeholder="Pesquisar"
+            />
           </div>
         </div>
       </div>
-      <div class="esquerda"></div>
-      <div class="direita"></div>
+      <div class="esquerda">
+        <div class="dentro-esquerda"></div>
+      </div>
+      <div class="direita">
+        <div class="dentro-direita"></div>
+      </div>
       <div class="centro">
         <div class="dentro">
+          <div class="desc-produto">O Pedro é gay</div>
           <div class="produto"></div>
-          <div class="desc-produto"></div>
+          <button class="bt-comprar">COMPRAR</button>
         </div>
       </div>
-      <div class="baixo"></div>
+      <div class="baixo">
+        <div class="logo1">
+          <img class="fotoL" src="logo-MIPRON.jpeg" />
+        </div>
+        <div class="escritaLogo1">
+          <div class="escritaL">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            laoreet lobortis pellentesque. Vivamus ut dolor vel tortor tempor
+            aliquet pulvinar sed sem.
+          </div>
+        </div>
+        <div class="diferencial">
+          <img class="fotoL" src="logo-MIPRON.jpeg" />
+        </div>
+        <div class="escritaDiferencial">
+          <div class="escritaD">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            laoreet lobortis pellentesque. Vivamus ut dolor vel tortor tempor
+            aliquet pulvinar sed sem.
+          </div>
+        </div>
+        <div class="fimBaixo">O Pedro é mto gay</div>
+      </div>
     </div>
     <script>
       const imagem = document.querySelector(".imagem");
@@ -46,6 +77,7 @@
 
       imagem.addEventListener("click", () => {
         barraPesquisa.classList.toggle("mostrar-barra");
+        imagem.classList.add("animacao-rodar");
       });
     </script>
   </body>
