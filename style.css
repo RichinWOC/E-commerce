@@ -116,6 +116,9 @@
   right: 20%;
   font-size: 15px;
   font-family: "Courier New", Courier, monospace;
+  color: white;
+  white-space: pre-wrap;
+  width: 20%;
 }
 /* Parte de baixo */
 .baixo {
