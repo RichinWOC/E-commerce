@@ -314,6 +314,5 @@
   animation: linear 1s rodando;
   right: 27.8%;
   transform: rotate(60deg);
-  /* make a animation reset all time when click */
   animation-iteration-count: 1;
 }
