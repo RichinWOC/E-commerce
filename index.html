@@ -13,25 +13,13 @@
   <body>
     <div class="container">
       <div class="cabecalho">
-        <div class="logo">Logo svg</div>
-        <div class="menu">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </div>
-        <div class="pesquisa">
-          <img src="logo-MIPRON.jpeg" alt="Imagem" class="imagem" />
-          <div class="barra-pesquisa" id="barra-pesquisa">
-            <input
-              class="caixa"
-              type="search"
-              name="pesquisa"
-              id="pesquisa"
-              placeholder="Pesquisar"
-            />
-          </div>
+        <img class="logo" src="logo-MIPRON.jpeg">
+        <input class="b" type="button" value="Button">
+        <input class="b" type="button" value="Button">
+        <input class="b" type="button" value="Button">
+        <a href=""><img class="perfil" src="Design sem nome (3).png"></a>
+        <a href=""><img class="opcao" src="Design sem nome (3) (1).png"></a>
+    </div>
         </div>
       </div>
       <div class="esquerda">
@@ -71,20 +59,6 @@
         <div class="fimBaixo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ut nihil ea repellat temporibus laboriosam quidem soluta dignissimos. Esse nemo assumenda dolorum quisquam eveniet repudiandae velit fugit nisi! Tempora, architecto.</div>
       </div>
     </div>
-    <script>
-      const imagem = document.querySelector(".imagem");
-      const barraPesquisa = document.getElementById("barra-pesquisa");
-
-      document.addEventListener("click", (e) => {
-        if (e.target !== imagem) {
-          barraPesquisa.classList.remove("mostrar-barra");
-          imagem.classList.remove("animacao-rodar");
-        }
-      });
-      imagem.addEventListener("click", () => {
-        barraPesquisa.classList.toggle("mostrar-barra");
-        imagem.classList.add("animacao-rodar");
-      });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
