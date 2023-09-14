@@ -416,12 +416,13 @@
   width: 110px;
 }
 
+
 .nome{
   justify-content: center;
   align-items: center;
   display: flex;
   font-size: 15px;
-  font-family: "Arial", sans-serif
+  font-family: "Arial", sans-serif;
 }
 
 .email{
@@ -429,7 +430,7 @@
   align-items: center;
   display: flex;
   font-size: 15px;
-  font-family: "Arial", sans-serif
+  font-family: "Arial", sans-serif;
 }
 
 .endereco{
@@ -437,9 +438,24 @@
   align-items: center;
   display: flex;
   font-size: 15px;
-  font-family: "Arial", sans-serif
+  font-family: "Arial", sans-serif;
 }
 
+.telefone{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  font-family: "Arial", sans-serif;
+}
+
+.cidade{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  font-family: "Arial", sans-serif;
+}
 .bt-altera_dados{
   cursor: pointer;
   margin: 0px 50px;
@@ -457,4 +473,19 @@
   height: 100px;
   border-radius: 100%;
   margin-left: 30px;
+}
+
+label{
+  margin-left: 30px;
+  font-size: 15px;
+  font-family: "Arial", sans-serif;
+  display: inline-block;
+}
+input {
+  width: 250px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
